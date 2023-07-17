@@ -1,0 +1,51 @@
+{
+    "values":[
+        "boat",
+        "chest_boat",
+
+        "minecart",
+        "tnt_minecart",
+        "chest_minecart",
+        "hopper_minecart",
+        "furnace_minecart",
+        "spawner_minecart",
+        "command_block_minecart",
+
+        "item",
+
+        "experience_orb",
+        "experience_bottle",
+        "potion",
+        "area_effect_cloud",
+
+        "#impact_projectiles",
+
+        "llama_spit",
+        "ender_pearl",
+        "eye_of_ender",
+        "firework_rocket",
+        "tnt",
+        "falling_block",
+        "fishing_bobber",
+
+        "lightning_bolt",
+        "leash_knot",
+        "painting",
+
+        "item_frame",
+        "glow_item_frame",
+
+        "armor_stand",
+
+        "end_crystal",
+
+        "evoker_fangs",
+
+
+        "marker",
+        "text_display",
+        "item_display",
+        "block_display",
+        "interaction"
+    ]
+}

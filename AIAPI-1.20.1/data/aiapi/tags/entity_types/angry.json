@@ -1,0 +1,29 @@
+{
+    "values":[
+        "#skeletons",
+        "#raiders",
+        "#axolotl_always_hostiles",
+        "#frog_food",
+
+        "blaze",
+        "spider",
+        "cave_spider",
+        "zombie",
+        "zombie_villager",
+        "husk",
+        "creeper",
+        "ghast",
+        "hoglin",
+        "piglin_brute",
+        "pufferfish",
+        "shulker",
+        "vex",
+        "warden",
+        "zoglin",
+        "ender_dragon",
+        "wither",
+        "endermite",
+        "silverfish",
+        "illusioner"
+    ]
+}

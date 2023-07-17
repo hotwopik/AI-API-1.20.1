@@ -1,0 +1,10 @@
+fill 0 0 0 15 100 15 air
+fill 0 100 0 15 200 15 air
+fill 0 200 0 15 300 15 air
+fill 0 300 0 15 400 15 air
+fill 0 400 0 15 500 15 air
+fill 0 500 0 15 600 15 air
+fill 0 600 0 15 700 15 air
+fill 0 700 0 15 800 15 air
+fill 0 900 0 15 1000 15 air
+fill 0 1000 0 15 1024 15 air

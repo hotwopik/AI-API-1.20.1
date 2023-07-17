@@ -1,0 +1,1 @@
+execute in aiapi:learn-main run function aiapi:sub/loadtutorial
