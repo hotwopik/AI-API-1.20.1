@@ -1,5 +1,5 @@
 name: Zip AI API datapack
-on: workflow_run
+on: workflow_call
 jobs:
   packsquash:
     name: Procces
