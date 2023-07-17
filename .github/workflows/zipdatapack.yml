@@ -14,5 +14,5 @@ jobs:
       with:
         packsquash_version: latest
         options:
-          pack_directory = 'AIAPI-1.20.1'
+          pack_directory = './AIAPI-1.20.1'
           zip_spec_conformance_level = 'high'
