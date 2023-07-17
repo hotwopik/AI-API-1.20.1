@@ -13,6 +13,6 @@ jobs:
       uses: ComunidadAylas/PackSquash-action@v4
       with:
         packsquash_version: latest
-        options:
-          pack_directory = './AIAPI-1.20.1'
-          zip_spec_conformance_level = 'high'
+        options: |
+          pack_directory='./AIAPI-1.20.1'
+          zip_spec_conformance_level='high'
