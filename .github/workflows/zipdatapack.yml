@@ -1,4 +1,4 @@
-name: Zip AI API datapack
+name: Zip AI API
 on: push
 jobs:
   packsquash:
