@@ -1,6 +1,1 @@
-{
-    "replace":false,
-    "values":[
-        "aiapi:load"
-    ]
-}
+{"replace":false,"values":["aiapi:load"]}

@@ -1,10 +1,1 @@
-{
-    "values":[
-        "zombie",
-        "zombie_horse",
-        "zombie_villager",
-        "husk",
-        "drowned",
-        "zombified_piglin"
-    ]
-}
+{"values":["zombie","zombie_horse","zombie_villager","husk","drowned","zombified_piglin"]}

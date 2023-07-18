@@ -1,7 +1,1 @@
-{
-    "values":[
-        "#aiapi:angry",
-        "#aiapi:neutral",
-        "#aiapi:friendly"
-    ]
-}
+{"values":["#aiapi:angry","#aiapi:neutral","#aiapi:friendly"]}

@@ -1,17 +1,1 @@
-{
-    "values":[
-        "bee",
-        "enderman",
-        "goat",
-        "llama",
-        "panda",
-        "phantom",
-        "piglin",
-        "polar_bear",
-        "trader_llama",
-        "wolf",
-        "dolphin",
-        "iron_golem",
-        "zombified_piglin"
-    ]
-}
+{"values":["bee","enderman","goat","llama","panda","phantom","piglin","polar_bear","trader_llama","wolf","dolphin","iron_golem","zombified_piglin"]}
