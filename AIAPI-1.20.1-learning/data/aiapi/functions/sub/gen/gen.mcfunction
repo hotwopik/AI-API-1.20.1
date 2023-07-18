@@ -25,8 +25,8 @@ data modify storage aiapi:main getvalue set from storage aiapi:main model.do
 execute unless score randomNumber aiapi.main matches 0 run function aiapi:sub/gen/gen/command
 
 #Place do command block and pass worker
-execute if block ~ ~ ~ command_block{Command:"pass"} run data modify block ~ ~ ~ Command set from storage aiapi:main getvalue[0]
-execute unless block ~ ~ ~ command_block{Command:"pass"} run function aiapi:sub/gen/gen/condition
+execute if block ~ ~ ~ command_block{Command:""} run data modify block ~ ~ ~ Command set from storage aiapi:main getvalue[0]
+execute unless block ~ ~ ~ command_block{Command:""} run function aiapi:sub/gen/gen/condition
 
 #Clear useless data
 data remove storage aiapi:main getvalue

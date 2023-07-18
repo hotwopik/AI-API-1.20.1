@@ -1,0 +1,15 @@
+{
+    "values":[
+        "camel",
+        "donkey",
+        "horse",
+        "mule",
+        "pig",
+        "llama",
+        "skeleton_horse",
+
+        "boat",
+        "chest_boat",
+        "minecart"
+    ]
+}

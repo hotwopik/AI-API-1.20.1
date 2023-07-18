@@ -5,7 +5,7 @@ tag @s add aiapi.instrpoint
 
 #Catch unsuccess start run
 execute store result score lastInitSuccess aiapi.main run data get block ~ ~ ~ SuccessCount
-execute unless block ~ ~ ~ command_block{Command:"pass"} if score lastInitSuccess aiapi.main matches 0 run scoreboard players set lastExitCode aiapi.main 2
+execute unless block ~ ~ ~ command_block{Command:""} if score lastInitSuccess aiapi.main matches 0 run scoreboard players set lastExitCode aiapi.main 2
 
 execute if score lastExitCode aiapi.main matches 2 run function aiapi:sub/run/initawait.err
 execute if score lastExitCode aiapi.main matches 2 run return 2
