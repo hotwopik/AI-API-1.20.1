@@ -1,12 +1,12 @@
 #Clear AI gen data
-data modify storage aiapi:main model set value {end:"",init:"",do:[],cond:[]}
+data modify storage aiapi:main model set value {end:"",init:"",do:[""],cond:[""]}
 
 #Get condition command blocks
 scoreboard players set learn.inlearning aiapi.main 1
 
 scoreboard players set learn.read.x aiapi.main 0
 scoreboard players set learn.read.y aiapi.main 1
-scoreboard players set learn.condcount aiapi.main 0
+scoreboard players set learn.condcount aiapi.main 1
 execute positioned -1 1 -1 run function aiapi:sub/get/getconditions
 
 execute unless data storage aiapi:main model.cond[0] run return 1
@@ -14,7 +14,7 @@ execute unless data storage aiapi:main model.cond[0] run return 1
 #Get do command blocks
 scoreboard players set learn.read.x aiapi.main 0
 scoreboard players set learn.read.y aiapi.main 1
-scoreboard players set learn.docount aiapi.main 0
+scoreboard players set learn.docount aiapi.main 1
 execute positioned 16 1 16 run function aiapi:sub/get/getdo
 
 execute unless data storage aiapi:main model.do[0] run return 2
@@ -34,10 +34,8 @@ scoreboard players reset learn.read.y aiapi.main
 #Set start scores
 scoreboard players set learn.maxResult aiapi.main 0
 scoreboard players set learn.success aiapi.main 0
-scoreboard players set learn.iteration aiapi.main 1
+scoreboard players set learn.iteration aiapi.main 0
 scoreboard players set learn.logicalLenght aiapi.main 0
-
-scoreboard players operation learn.lastSuccess aiapi.main = learn.minSuccess aiapi.main
 
 #Start generation
 execute in aiapi:learn-ai run function aiapi:sub/gen/startgeneration

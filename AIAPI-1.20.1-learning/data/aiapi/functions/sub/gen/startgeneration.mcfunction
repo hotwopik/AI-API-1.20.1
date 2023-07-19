@@ -15,8 +15,5 @@ scoreboard players set learn.gen.x aiapi.main 1
 scoreboard players set learn.gen.y aiapi.main 0
 scoreboard players set learn.gen.z aiapi.main 0
 
-#Gen new command blocks
-execute as @e[tag=aiapi.learn.genpoint] at @s run function aiapi:sub/gen/gen
-
 #Run AI
 execute positioned 0 0 0 run function aiapi:sub/run/run

@@ -17,3 +17,7 @@ scoreboard players reset learn.gen.z aiapi.main
 scoreboard players reset learn.docount aiapi.main
 scoreboard players reset learn.condcount aiapi.main
 scoreboard players reset learn.maxResult aiapi.main
+
+scoreboard players reset learn.lastSuccess aiapi.main
+scoreboard players reset learn.success aiapi.main
+scoreboard players reset learn.iteration aiapi.main

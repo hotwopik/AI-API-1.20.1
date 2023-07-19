@@ -1,3 +1,4 @@
+execute if score learn.gen.z aiapi.main matches 513 run return 0
 #Get condition command
 scoreboard players set randomNumber aiapi.main 0
 

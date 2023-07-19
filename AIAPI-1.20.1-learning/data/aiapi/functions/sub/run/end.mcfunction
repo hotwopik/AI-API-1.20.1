@@ -6,4 +6,5 @@ kill @s
 
 #Run end functions
 schedule function #aiapi:end 1 append
-execute if score learn.inlearning aiapi.main matches 1 run schedule function aiapi:sub/get/learn.end 2
+execute if score learn.inlearning aiapi.main matches 1 unless score learn.iteration aiapi.main matches 0 run schedule function aiapi:sub/get/learn.end 2
+execute if score learn.inlearning aiapi.main matches 1 if score learn.iteration aiapi.main matches 0 run schedule function aiapi:sub/get/learnend/firstiteration 2
